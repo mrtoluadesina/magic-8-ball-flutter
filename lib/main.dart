@@ -24,7 +24,7 @@ class _MagicAppState extends State<MagicApp> {
       home: Scaffold(
         backgroundColor: Colors.blue,
         appBar: AppBar(
-          title: Text('Magic 8 Ball'),
+          title: Text('Ask Me Anything'),
           backgroundColor: Colors.blue[900],
         ),
         body: Center(
