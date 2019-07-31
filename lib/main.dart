@@ -35,6 +35,19 @@ class _MagicAppState extends State<MagicApp> {
             child: Image.asset('images/ball$anyBall.png'),
           ),
         ),
+        bottomNavigationBar: BottomNavigationBar(
+          backgroundColor: Colors.blue[900],
+          items: const <BottomNavigationBarItem>[
+            BottomNavigationBarItem(
+              icon: Icon(Icons.home),
+              title: Text('Magic 8'),
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.gamepad),
+              title: Text('Other Games'),
+            )
+          ],
+        ),
       ),
     );
   }
