@@ -32,7 +32,7 @@ class _MagicAppState extends State<MagicApp> {
             onPressed: () {
               answer();
             },
-            child: Image.asset('ball$anyBall.png'),
+            child: Image.asset('images/ball$anyBall.png'),
           ),
         ),
       ),
